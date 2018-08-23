@@ -26,7 +26,7 @@ class Player
             for(int j=0;j<width;j++)
                 initialTable[j,i] = lineAsChars[j].Equals("0");
         }
-        initialTable.AsQueryable().Where()
+        
         // Write an action using Console.WriteLine()
         // To debug: Console.Error.WriteLine("Debug messages...");
 
